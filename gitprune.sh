@@ -15,7 +15,7 @@ PushLog="/dev/null"
 # Mensaje
 message=$@
 if [ -z "$message" ]; then
-message="$(date)2022-11-03 TERMINADO HASTA EL 6"
+message="$(date)2022-11-03 empezando con feign"
 fi
 
 start=`date +%s`
