@@ -15,7 +15,7 @@ PushLog="/dev/null"
 # Mensaje
 message=$@
 if [ -z "$message" ]; then
-message="$(date)2022-11-04 CONFIGURADO GATEWAY CON LAS RUTAS MICROSERVICIOS"
+message="$(date)2022-11-04 ++sleutch gateway CONFIGURADO GATEWAY CON LAS RUTAS MICROSERVICIOS"
 fi
 
 git add .
