@@ -15,7 +15,7 @@ PushLog="/dev/null"
 # Mensaje
 message=$@
 if [ -z "$message" ]; then
-message="$(date) 2022-10-27 CORREGIDOS PROPERTIES"
+message="$(date) 2022-1-05 enable zipkin"
 fi
 
 start=`date +%s`
