@@ -15,7 +15,7 @@ PushLog="/dev/null"
 # Mensaje
 message=$@
 if [ -z "$message" ]; then
-message="$(date)2022-11-05 ACABADO ZIPKIN"
+message="$(date)2022-11-05 COMIENZO METRICAS"
 fi
 
 start=`date +%s`
