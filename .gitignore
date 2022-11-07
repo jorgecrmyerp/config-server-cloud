@@ -9,6 +9,7 @@
 ### MIO ###
 drivers/
 prometheus/
+grafana-9.2.3/
 *.avi
 *.mp4
 *.jpg
