@@ -15,7 +15,7 @@ PushLog="/dev/null"
 # Mensaje
 message=$@
 if [ -z "$message" ]; then
-message="$(date)2022-11-08 añadidos path alumnos/cursos en gateway"
+message="$(date)2022-11-08 TERMINADO EL CACHE"
 fi
 
 git add .
